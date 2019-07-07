@@ -1,0 +1,34 @@
+2019-07-08 00:01:09.617  INFO 32832 --- [main] i.r.o.e.ExecutionRestControllerTest      : Starting ExecutionRestControllerTest on DESKTOP-7JGNAKD with PID 32832 (started by luoxu in D:\workspace\order-book-system)
+2019-07-08 00:01:09.624  INFO 32832 --- [main] i.r.o.e.ExecutionRestControllerTest      : No active profile set, falling back to default profiles: default
+2019-07-08 00:01:10.156  INFO 32832 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-08 00:01:10.189  INFO 32832 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28ms. Found 0 repository interfaces.
+2019-07-08 00:01:10.488  INFO 32832 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$42cc1837] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-08 00:01:10.711  INFO 32832 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2019-07-08 00:01:10.713  INFO 32832 --- [main] org.hibernate.cfg.Environment            : HHH000205: Loaded properties from resource hibernate.properties: {spring.datasource.url=jdbc:postgresql://localhost:5432/orderbooksystem, spring.datasource.username=orderbooksystem, spring.datasource.driver.class=org.postgresql.Driver, hibernate.temp.use_jdbc_metadata_defaults=false, spring.datasource.password=orderbooksystem, spring.jpa.properties.hibernate.hbm2ddl.auto=update, spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect, hibernate.bytecode.use_reflection_optimizer=false, spring.jpa.show-sql=true}
+2019-07-08 00:01:10.809  INFO 32832 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-07-08 00:01:11.153  INFO 32832 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2019-07-08 00:01:11.166  INFO 32832 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000422: Disabling contextual LOB creation as connection was null
+2019-07-08 00:01:11.170  INFO 32832 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@382c90c2
+2019-07-08 00:01:12.469  INFO 32832 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-08 00:01:12.516  WARN 32832 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-08 00:01:12.906  INFO 32832 --- [main] i.r.o.e.ExecutionRestControllerTest      : Started ExecutionRestControllerTest in 3.506 seconds (JVM running for 4.149)
+2019-07-08 00:01:12.968  INFO 32832 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2019-07-08 00:01:12.968  INFO 32832 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2019-07-08 00:01:12.980  INFO 32832 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 12 ms
+2019-07-08 00:01:13.279  INFO 32832 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: myJPA
+	...]
+2019-07-08 00:01:13.324  INFO 32832 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2019-07-08 00:01:13.325  INFO 32832 --- [main] o.h.e.j.e.i.LobCreatorBuilderImpl        : HHH000422: Disabling contextual LOB creation as connection was null
+2019-07-08 00:01:13.325  INFO 32832 --- [main] org.hibernate.type.BasicTypeRegistry     : HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@382c90c2
+2019-07-08 00:01:13.358  WARN 32832 --- [main] org.hibernate.orm.connections.pooling    : HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2019-07-08 00:01:13.359  INFO 32832 --- [main] org.hibernate.orm.connections.pooling    : HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/orderbooksystem]
+2019-07-08 00:01:13.359  INFO 32832 --- [main] org.hibernate.orm.connections.pooling    : HHH10001001: Connection properties: {user=orderbooksystem, password=****}
+2019-07-08 00:01:13.359  INFO 32832 --- [main] org.hibernate.orm.connections.pooling    : HHH10001003: Autocommit mode: false
+2019-07-08 00:01:13.361  INFO 32832 --- [main] .c.i.DriverManagerConnectionProviderImpl : HHH000115: Hibernate connection pool size: 20 (min=1)
+2019-07-08 00:01:13.401  INFO 32832 --- [main] org.hibernate.orm.connections.access     : HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7e58f697] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2019-07-08 00:01:13.544  INFO 32832 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2019-07-08 00:01:13.544  INFO 32832 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2019-07-08 00:01:13.547  INFO 32832 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 3 ms
+2019-07-08 00:01:13.560  INFO 32832 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2019-07-08 00:01:13.769  INFO 32832 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
